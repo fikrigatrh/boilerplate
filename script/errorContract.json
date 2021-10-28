@@ -1,0 +1,25 @@
+{
+  "1000": {"var": "ErrInvalidRequestFamily", "msg": "Invalid Request"},
+
+  "400012": {"var": "ErrRoleName", "msg":"Invalid Mandatory Field role_name"},
+  "400013": {"var": "ErrInvalidRoleName", "msg":"Invalid role name"},
+  "400014": {"var": "ErrBankCardType", "msg":"Invalid Mandatory Field bankCardType"},
+  "400015": {"var": "ErrIdentificationNo", "msg":"Invalid Mandatory Field identificationNo"},
+  "400016": {"var": "ErrIdentificationType", "msg":"Invalid Mandatory Field identificationType"},
+  "400017": {"var": "ErrBankCardNo", "msg":"Invalid Mandatory Field bankCardNo"},
+
+  "400018": {"var": "ErrExpDate", "msg":"Invalid Mandatory Field expiryDate"},
+  "400019": {"var": "ErrCustId", "msg":"Invalid Mandatory Field custIdMerchant"},
+
+  "400020": {"var": "ErrPhoneNo", "msg":"Invalid Mandatory Field phoneNo"},
+  "400021": {"var": "ErrReferenceNo", "msg":"Invalid Mandatory Field referenceNo"},
+  "400022": {"var": "ErrOtp", "msg":"Invalid Mandatory Field otp"},
+  "400023": {"var": "ErrRegisToken", "msg":"Invalid Mandatory Field registrationToken"},
+
+  "400024": {"var": "ErrToken", "msg":"Invalid Mandatory Field token"},
+  "0299": {"var": "ErrRecordNotFound", "msg":"Record Not Found"},
+
+  "0501" : {"var": "ErrDuplicate", "msg":"Duplicate value partner_name or partner_dev_mail"},
+
+  "9999": {"var": "ErrUnexpectedError", "msg": "Unexpected Error"}
+}

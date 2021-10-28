@@ -1,9 +1,14 @@
 package repository
 
+import "boilerplate/models"
+
 type Example1RepoInterface interface {
-	// berisi semua method function yg ada di dalam package example 1 repository
+	AddRole(rl models.Role) (models.Role, error)
+	UpdateRole(rl models.Role) (models.Role, error)
+
 }
 
-type Example2RepoInterface interface {
-	// berisi semua method function yg ada di dalam package example 1 repository
+type LoginRepoInterface interface {
+	GetAdminId(name string) (models.Role, error)
+	CreateAuth(username string, roleId string) (*models.Auth, error)
 }

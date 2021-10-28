@@ -31,7 +31,7 @@ func init() {
 		log.Fatal("cannot connect to DB")
 	}
 
-	log.Print("success connect to db")
+	log.Print("success connect to db with orm lib")
 
 	AutoMigrate(DB)
 

@@ -29,5 +29,10 @@ func loadConfig() error {
 		return err
 	}
 
+	err = env.Parse(&Config.PostgresConfig)
+	if err != nil {
+		return err
+	}
+
 	return err
 }
